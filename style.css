@@ -1,0 +1,104 @@
+#s1{
+height:100vh;
+width:100vw;
+background-attachment: fixed;
+background-size: cover;
+z-index:1;
+position: relative;
+}
+#s2{
+background-attachment: fixed;
+height:100vh;
+width:100vw;
+background-size: cover;
+z-index:1;
+position: relative;
+}
+#s3{
+background-attachment: fixed;
+height:100vh;
+width:100vw;
+background-size: cover;
+z-index:1;
+position: relative;
+}
+#s4{
+background-attachment: fixed;
+height:100vh;
+width:100vw;
+background-size: cover;
+z-index:1;
+position: relative;
+}
+body{
+	overflow-x:hidden; 
+	padding: 0;
+	margin: 0;
+	background: #f2f2f2; /* For browsers that do not support gradients */
+background: -webkit-linear-gradient( #ffff99, #ffff99,#4FC3F7,#FF8A65,#FF8A65,#212121,#212121); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient( #ffff99, #ffff99,#4FC3F7,#FF8A65,#FF8A65,#212121,#212121); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient( #ffff99, #ffff99,#4FC3F7,#FF8A65,#FF8A65,#212121,#212121); /* For Firefox 3.6 to 15 */
+background: linear-gradient( #ffff99, #ffff99,#4FC3F7,#FF8A65,#FF8A65,#212121,#212121); /* Standard syntax */
+}
+.intro{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 80px;
+}
+.intros{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 28px;
+}
+.introa{
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 28px;
+	color:white;
+}
+
+.words{
+	padding-top: 28vh;
+}
+#textdiv1{
+	z-index:-1;
+	position: relative;
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+/* =============================================================================
+   HTML5 CSS Reset Minified - Eric Meyer
+   ========================================================================== */
+
+
+/* =============================================================================
+   My CSS
+   ========================================================================== */
+
+/* ---- base ---- */
+
+
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  background-image: url('bg1.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
