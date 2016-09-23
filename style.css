@@ -97,7 +97,7 @@ canvas{
   width: 100%;
   height: 100%;
   background-color: transparent;
-  background-image: url('bg1.png');
+  background-image: url('bg1-min.png');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
